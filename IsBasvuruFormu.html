@@ -1,0 +1,109 @@
+<form name="" action="" method="get" class="Odevform1">  
+ <table border="1" width="40%" cellspacing="5" cellpadding="1"> 
+ <caption>İş Başvuru Formu</caption>
+  <tr class="">
+    <td style="color: blue;" bgcolor="gray">Adınız </td>
+    <td>
+                   <input type="text"  size="40" placeholder="Adınızı yazınız" required/>
+               </td>
+    </tr>
+           <tr>
+    <td>Soyadız </td>
+    <td>
+                   <input type="text"  size="40" placeholder="Soyadınızı yazınız" required/>
+               </td>
+    </tr>
+    <tr>
+        <td>Cinsiyetiniz</td>
+        <td>
+            <input id="Erkek"  type="radio" name="cinsiyet">
+            <label for="Erkek">Erkek</label>
+
+            <input id="Kadın"  type="radio" name="cinsiyet">
+            <label for="Kadın">Kadın</label>
+        </td>
+    </tr>
+    <tr>
+        <td>Egitim Durumunuz</td>
+        <td>
+            <input id="Lise"  type="radio" name="ögrenim">
+            <label for="Lise">Lise</label>
+
+            <input id="Lisans"  type="radio" name="ögrenim">
+            <label for="Lisans">Lisans</label>
+
+            <input id="Yüksek Lisans"  type="radio" name="ögrenim">
+            <label for="Yüksek Lisans">Yüksek Lisans</label>
+        </td>
+    </tr>
+    <tr>
+        <td>Askerlik</td>
+        <td>
+        <select name="askerlik" >
+        <option value="tecilli">Tecilli</option> 
+        <option value="muaf">Muaf</option>
+        <option value="Yapıldı">Yapıldı</option>
+        </select>
+        </td>
+        </tr>
+    <tr>
+        <td>Dogum Tarihi</td>
+        <td>
+            <input id="Dogum Tarihi" type="date" name="date">
+        </td>
+        <tr>
+            <td>E-Posta Adresi</td>
+            <td>
+                <input id="E-Posta Adresi" type="e-mail" name="E-Posta Adresi" placeholder="E-Posta Adresinizi Giriniz">
+                
+            </td>
+        </tr>
+    </tr>
+    <tr>
+        <td>Telefon Numarası</td>
+        <td>
+            <input id="Telefon Numarası" type="number" name="tel" placeholder="(___) _______" required>
+        </td>
+    </tr>
+    <tr>
+        <td>Okul Giriniz</td>
+        <td> 
+            <input id="Okul giriniz" type="text" name="Okul" placeholder="Okulunuzu giriniz">
+        </td>
+        </tr>
+        <tr>
+            <td>Sınıf</td>
+            <td>
+            <select name="Sınıf">
+            <option value="1.Sınıf">1.Sınıf</option> 
+            <option value="2.Sınıf">2.Sınıf</option>
+            <option value="3.sınıf">3.sınıf</option>
+            <option value="4.sınıf">4.sınıf</option>
+            <option value="Mezun">Mezun</option>
+            </select>
+            </td>
+            </tr>
+            <td style="padding: 10px; border-radius: 10px; padding:10px; border: 0 ; box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06); " >Yetkinlikleriniz</td>
+            <td> 
+                <textarea name="" id="" cols="30" rows="8"></textarea>
+            </td>
+            <tr>
+            <td>İş Deneyimleriniz</td>
+            <td>
+                <textarea name="" id="" cols="30" rows="8"></textarea>
+            </td>
+            <tr>
+    <tr >
+        <td>CV Yükle</td>
+        <td>
+            <label  for="file"></label>
+            <input type="file" name="file" id="file">
+        </td>
+    </tr>
+    <td>
+            <input type="submit" id="submit" name="submit" value="FORMU GÖNDER">
+       </td>
+ </table>
+</form>
+
+
